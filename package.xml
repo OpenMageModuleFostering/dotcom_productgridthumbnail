@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Dotcom_ProductGridThumbnail</name>
+    <version>1.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GPL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Add product thumbnails to admin grid</summary>
+    <description>This module adds the products' thumbnails to the admin grid. The thumbnail size can be configured.</description>
+    <notes>first stable release</notes>
+    <authors><author><name>Doc</name><user>DotcomIT</user><email>info@dotcom.ts.it</email></author></authors>
+    <date>2016-04-05</date>
+    <time>08:59:14</time>
+    <contents><target name="magecommunity"><dir name="Dotcom"><dir name="ProductGridThumbnail"><dir name="Block"><dir name="Adminhtml"><dir name="Catalog"><dir name="Product"><dir name="Grid"><dir name="Renderer"><file name="Thumbnail.php" hash="47ef37ac43fa8fbdfbd21b526ab6f536"/></dir></dir><file name="Grid.php" hash="0864d72dfb0b1ddb70179e01636b6c75"/></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="5295f5ac0aa129934dd5b89b0920537b"/></dir><dir name="etc"><file name="adminhtml.xml" hash="9e988d1653c4fe18177983848cd1451b"/><file name="config.xml" hash="a840b76d4867c0963e63fb2b7d3a7fd0"/><file name="system.xml" hash="58623bcaf2d4bc62b8d25916255eee1d"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Dotcom_ProductGridThumbnail.xml" hash="fbc9cc315d9615322e5437bf408d28e9"/></dir></target><target name="magemedia"><dir name="catalog"><dir name="product"><dir name="default"><file name="default.jpg" hash="d214c2f29a8667ba0eae0bfc950d2785"/></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.4</min><max>5.5.16</max></php></required></dependencies>
+</package>

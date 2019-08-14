@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Dotcom_ProductGridThumbnail>
+            <version>1.1.0</version>
+        </Dotcom_ProductGridThumbnail>
+    </modules>
+    <global>
+        <models>
+            <dotcom_productgridthumbnail>
+                <class>Dotcom_ProductGridThumbnail_Model</class>
+                <resourceModel>dotcom_productgridthumbnail_resource</resourceModel>
+            </dotcom_productgridthumbnail>
+            <dotcom_productgridthumbnail_resource>
+                <class>Dotcom_ProductGridThumbnail_Model_Resource</class>
+            </dotcom_productgridthumbnail_resource>
+        </models>
+        <blocks>
+            <dotcom_productgridthumbnail>
+                <class>Dotcom_ProductGridThumbnail_Block</class>
+            </dotcom_productgridthumbnail>
+            <adminhtml>
+                <rewrite>
+                    <catalog_product_grid>Dotcom_ProductGridThumbnail_Block_Adminhtml_Catalog_Product_Grid</catalog_product_grid>
+                </rewrite>
+            </adminhtml>
+        </blocks>
+        <helpers>
+            <dotcom_productgridthumbnail>
+                <class>Dotcom_ProductGridThumbnail_Helper</class>
+            </dotcom_productgridthumbnail>
+        </helpers>
+    </global>
+</config>

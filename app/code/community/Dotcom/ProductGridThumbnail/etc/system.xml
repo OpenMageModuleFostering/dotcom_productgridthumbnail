@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <tabs>
+        <dotcomextensions translate="label">
+            <label>Dotcom Extensions</label>
+            <sort_order>100</sort_order>
+        </dotcomextensions>
+    </tabs>
+    <sections>
+        <product_grid_thumbnail translate="label" module="dotcom_productgridthumbnail">
+            <label>Product Grid Thumbnail</label>
+            <tab>dotcomextensions</tab>
+            <sort_order>1</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <settings>
+                    <label>Settings</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>10</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <expanded>true</expanded>
+                    <fields>
+                        <image_size>
+                            <label>Image Size (px)</label>
+                            <frontend_type>text</frontend_type>
+                            <validate>validate-number</validate>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </image_size>
+                    </fields>
+                </settings>
+            </groups>
+        </product_grid_thumbnail>
+    </sections>
+</config>
