@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Dotcom_ProductGridThumbnail",
+    "name": "OpenMageModuleFostering\/Dotcom_ProductGridThumbnail",
     "type": "magento-module",
     "license": "GPL",
     "homepage": "",
     "description": "Add product thumbnails to admin grid",
     "authors": [
-    {
-        "name": "Doc",
-        "email": "info@dotcom.ts.it"
-    }
-],
+        {
+            "name": "Doc",
+            "email": "info@dotcom.ts.it"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
