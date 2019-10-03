@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 Add product thumbnails to admin grid
